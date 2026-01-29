@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://mark-gallery.vercel.app/" />
+    <meta
+      name="description"
+      content="Мы приглашаем вас окунуться в этот чудесный мир, полный ярких красок, веселья и воображения.
+
+Позвольте поделиться своим взглядом на окружающий мир через объектив фотокамеры и узнайте, какие удивительные моменты  запечатлены."
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Марк 🤍 - наш 👶</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')">
+        Показать все
+      </button>
+      <button class="btn" onclick="filterSelection('born')">Рождение</button>
+      <button class="btn" onclick="filterSelection('age')">Растем</button>
+      <button class="btn" onclick="filterSelection('emotion')">Эмоции</button>
+      <button class="btn" onclick="filterSelection('dream')">Сон</button>
+      <button class="btn" onclick="filterSelection('christening')">
+        Крестины
+      </button>
+      <button class="btn" onclick="filterSelection('mother')">С мамой</button>
+      <button class="btn" onclick="filterSelection('father')">С папой</button>
+      <button class="btn" onclick="filterSelection('parents')">Родители</button>
+
+      <button class="btn" onclick="filterSelection('aunt')">С тетей</button>
+      <button class="btn" onclick="filterSelection('bathing')">Водные</button>
+      <button class="btn" onclick="filterSelection('christmas')">
+        Рождество
+      </button>
+         <button class="btn" onclick="filterSelection('eating')">
+        Трапеза
+      </button>
+    </div>
+<div class="container">
+  <img src="images/b-326.jpg" loading="lazy" alt="" class="filterDiv age" />
+</div>
+  
+
+    <a class="btn" href="index.html">В начало</a>
+
+    <script defer src="index.js"></script>
+  </body>
+</html>
